@@ -18,3 +18,8 @@ I'm 30 years old. Having started his career, I had to try myself in various fiel
 My goal is to make my life better and more interesting. I want to grow, develop my skills and make new acquaintances. For this reason, I chose Front-End development.
 I've been studying web development for about 2 years. Several Front-End Developer courses have been completed and several trial projects have been completed.
 My dedication and sociability will help me grow and develop in my chosen profession.
+
+## **My skills**
+Basic knowledge:
+* HTML, CSS 
+* JavaScript 
