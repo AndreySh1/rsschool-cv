@@ -58,3 +58,6 @@ videoA.apply(this, arguments); } , false);
 	$(this).attr('src','images/video-play.png');
 	});
 ```
+## **Experience** 
+* [Kursy.by](Kursy.by)
+* [FructCode](fructcode.com)
