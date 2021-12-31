@@ -61,3 +61,14 @@ videoA.apply(this, arguments); } , false);
 ## **Experience** 
 * [Kursy.by](Kursy.by)
 * [FructCode](fructcode.com)
+
+## **Education** 
+* 2020
+    * online training at [IT-KAMASUTRA](https://www.youtube.com/c/ITKAMASUTRA).
+    * online training at [FructCode](https://fructcode.com/ru/).
+
+* 2021
+    * Completed the Front-End developer course at KURSY.BY.
+
+* 2021-2022
+    * student in RS-School
