@@ -72,3 +72,7 @@ videoA.apply(this, arguments); } , false);
 
 * 2021-2022
     * student in RS-School
+
+    ## **English**
+
+My English level is basic (A1-A2). Started learning the language on the platform [Duolingo](https://ru.duolingo.com) . I intend to improve my level up to C2-Proficiency.
