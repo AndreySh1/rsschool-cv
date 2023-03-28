@@ -1,16 +1,17 @@
-# *Shishlo Andrey*
-![My photo](myphoto.jpg) 
+# _Shishlo Andrey_
+
+![My photo](../rsschool-cv/assets/img/myphoto.jpg)
 
 student in RS-School
 
 ## **My сontacts:**
 
-* **Phone:** +375-25-521-31-63
-* **Email:** shishlik19@gmail.com
-* **Telegram:** @andreyshishlo
-* **Instagram:**  i_andreyshishlo
-* **GitHub:** AndreySh1
-* **Discord:** AndreyShishlo(AndreySh1)
+- **Phone:** +375-25-521-31-63
+- **Email:** shishlik19@gmail.com
+- **Telegram:** @andreyshishlo
+- **Instagram:** i_andreyshishlo
+- **GitHub:** AndreySh1
+- **Discord:** AndreyShishlo(AndreySh1)
 
 ## **About me**
 
@@ -20,20 +21,26 @@ I've been studying web development for about 2 years. Several Front-End Develope
 My dedication and sociability will help me grow and develop in my chosen profession.
 
 ## **My skills**
+
 Basic knowledge:
-* HTML, CSS 
-* JavaScript 
+
+- HTML, CSS
+- JavaScript
 
 ## **Code examples**
-***for the presentation site of the new ASUS model:***
+
+**_for the presentation site of the new ASUS model:_**
+
 ```
-var videoA = function () {this.innerHTML = '<iframe width="660" height="415" src="https://www.youtube.com/embed/qHQVjfpz6nE" 
-title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'}; 
-document.querySelector('.video-center').addEventListener('click', function (e) { this.removeEventListener('click', videoA, false); 
+var videoA = function () {this.innerHTML = '<iframe width="660" height="415" src="https://www.youtube.com/embed/qHQVjfpz6nE"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'};
+document.querySelector('.video-center').addEventListener('click', function (e) { this.removeEventListener('click', videoA, false);
 videoA.apply(this, arguments); } , false);
 ```
-***for the presentation site of the new TESLA model:***
+
+**_for the presentation site of the new TESLA model:_**
+
 ```
   $(document).scroll(function() {
 	if($(document).scrollTop()>200)
@@ -42,7 +49,7 @@ videoA.apply(this, arguments); } , false);
 		$(".header-t").css('padding','1px 0 1px 5px');
 		$(".head-0").css('background','#333');
 		$("#logo").attr('src','images/tesla-logo3.png');
-		
+
 	}
 	if($(document).scrollTop()<=200)
 	{
@@ -50,29 +57,35 @@ videoA.apply(this, arguments); } , false);
 		$(".head-0").css('background',' rgba(7,7,7,0.3)');
 		$("#logo").attr('src','images/tesla-logo1.png');
 	}
-}) 
+})
 
   $('#at').hover(function(){
-	$(this).attr('src','images/video-play-bl.png');},  
+	$(this).attr('src','images/video-play-bl.png');},
 	function(){
 	$(this).attr('src','images/video-play.png');
 	});
 ```
-## **Experience** 
-* [Kursy.by](Kursy.by)
-* [FructCode](fructcode.com)
 
-## **Education** 
-* 2020
-    * online training at [IT-KAMASUTRA](https://www.youtube.com/c/ITKAMASUTRA).
-    * online training at [FructCode](https://fructcode.com/ru/).
+## **Experience**
 
-* 2021
-    * Completed the Front-End developer course at KURSY.BY.
+- [Kursy.by](Kursy.by)
+- [FructCode](fructcode.com)
 
-* 2021-2022
-    * student in RS-School
+## **Education**
 
-    ## **English**
+- 2020
+
+  - online training at [IT-KAMASUTRA](https://www.youtube.com/c/ITKAMASUTRA).
+  - online training at [FructCode](https://fructcode.com/ru/).
+
+- 2021
+
+  - Completed the Front-End developer course at KURSY.BY.
+
+- 2021-2022
+
+  - student in RS-School
+
+  ## **English**
 
 My English level is basic (A1-A2). Started learning the language on the platform [Duolingo](https://ru.duolingo.com) . I intend to improve my level up to C2-Proficiency.
