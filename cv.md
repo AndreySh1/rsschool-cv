@@ -66,6 +66,84 @@ videoA.apply(this, arguments); } , false);
 	});
 ```
 
+**_for a site using the API:_**
+
+```
+const input = document.getElementById('input');
+const grid = document.getElementsByClassName('grid')[0];
+
+document.getElementById('input').focus();
+
+window.onload = function() {
+    loadImg1();
+  };
+
+async function loadImg1 (){
+    const urlTesla = 'https://api.unsplash.com/search/photos?query=tesla&per_page=20&orientation=landscape&client_id=cWNhoJw52_EtPg8bqwun-XsMBG-uUi3TVBSet2KhF7g';
+    fetch(urlTesla)
+
+    .then(response =>{
+        if(response.ok)
+        return response.json();
+        else
+        alert(response.status)
+    })
+
+    .then(data => {
+        const imageNodes = [];
+        for(let i = 0; i < data.results.length;i++){
+            imageNodes[i] = document.createElement('div');
+            imageNodes[i].className = 'img';
+            imageNodes[i].style.backgroundImage = 'url(' +data.results[i].urls.raw+')';
+            imageNodes[i].addEventListener('dblclick',function(){
+                window.open(data.results[i].links.download, '_blank');
+            })
+            grid.appendChild(imageNodes[i]);
+        }
+    })
+}
+
+
+
+input.addEventListener('keydown', function(event){
+    if(event.key === 'Enter' && (input.value !== ''))
+    loadImg();
+    if(event.key === 'Enter' && (input.value == ''))
+    loadImg1();
+})
+
+function loadImg(){
+    removeImages();
+
+    const url = 'https://api.unsplash.com/search/photos/?query='+input.value+'&per_page=30&client_id=cWNhoJw52_EtPg8bqwun-XsMBG-uUi3TVBSet2KhF7g';
+    fetch(url)
+
+    .then(response =>{
+        if(response.ok)
+        return response.json();
+        else
+        alert(response.status)
+    })
+
+    .then(data => {
+        const imageNodes = [];
+        for(let i = 0; i < data.results.length;i++){
+            imageNodes[i] = document.createElement('div');
+            imageNodes[i].className = 'img';
+            imageNodes[i].style.backgroundImage = 'url(' +data.results[i].urls.raw+')';
+            imageNodes[i].addEventListener('dblclick',function(){
+                window.open(data.results[i].links.download, '_blank');
+            })
+            grid.appendChild(imageNodes[i]);
+        }
+    })
+}
+
+function removeImages(){
+    grid.innerHTML = '';
+}
+```
+
 ## **Experience**
 
 - [Kursy.by](Kursy.by)
