@@ -26,6 +26,7 @@ Basic knowledge:
 
 - HTML, CSS
 - JavaScript
+- Figma
 
 ## **Code examples**
 
